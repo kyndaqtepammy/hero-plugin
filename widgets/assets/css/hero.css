@@ -1,0 +1,79 @@
+.hero-image {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-position: center;
+  position: absolute;
+}
+.overlay {
+  background-color: #04000099;
+  position: relative;
+}
+.collection-title, .dd-play-wrapper {
+  margin: auto;
+  color: white;
+  z-index: 10;
+}
+.dd-play-wrapper , .dd-pause-wrapper{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  padding: 0 18em;
+  color: white;
+}
+.collection-title {
+  background-color: #cd3848;
+  width: 100%;
+  border-radius: 25px;
+  text-align: left;
+  padding: .7em 10em;
+  margin-left: -30px;
+}
+.controls {
+  background-color: black;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0px;
+  text-align: center;
+  z-index: 13;
+}
+.ddp-actions {
+  color: black;
+  background-color: #fcd21c;
+  float:left;
+  padding: 15px;
+  border-right: 1px solid black;
+}
+#play-podcast-btn, #pause-podcast-btn {
+  z-index: 13;
+  cursor: pointer;
+}
+.ddp-actions {
+  color: black;
+  background-color: #fcd21c;
+  float:left;
+  padding: 15px;
+  border-right: 1px solid black;
+}
+.ddp-playback-controls {
+  padding: 20px 3px;
+  color: wheat;
+}
+#play-podcast-btn, #pause-podcast-btn {
+  z-index: 13;
+  cursor: pointer;
+}#share-fb {
+  color: #183153;
+  padding: 20px;
+}
+#share-tw {
+  color: #339af0;
+  padding: 20px;
+}
+.share-icons, .show-notes  {
+  position: relative;
+  margin: auto;
+  display: none;
+}
